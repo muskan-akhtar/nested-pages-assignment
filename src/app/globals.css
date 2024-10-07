@@ -3,21 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #a227db;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #050101;
+    --foreground: #fae5e5;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0; 
+    padding: 20px; 
+    color: purple;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  text-align: center; 
+  margin: 0; 
+  padding: 20px; 
+  color: purple;
+  font-size: 20px;
+  font-style: italic;
+}
+li{
+  text-align: center; 
+  margin: 0; 
+  padding: 70px; 
+  color: purple;
+  font-size: 20px;
+  font-style: italic;
 }
 
 @layer utilities {
